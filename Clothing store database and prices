@@ -1,0 +1,23 @@
+--Create a clothing store database
+
+CREATE TABLE clothes (id INTEGER PRIMARY KEY, name TEXT, price INTEGER); 
+INSERT INTO clothes VALUES (1, "TANK TOPS", 5);
+INSERT INTO clothes VALUES (2, "SHORTS", 2);
+INSERT INTO clothes VALUES (3, "SKIRTS", 20); 
+INSERT INTO clothes VALUES (4, "SWEATERS", 15);
+INSERT INTO clothes VALUES (5, "JEANS", 30);
+INSERT INTO clothes VALUES (6, "HEELS", 25);
+INSERT INTO clothes VALUES (7, "SANDALS", 10);
+INSERT INTO clothes VALUES (8, "BOOTS", 40);
+INSERT INTO clothes VALUES (9, "SLIPPERS", 3);
+INSERT INTO clothes VALUES (10, "BRACELETS", 8);
+INSERT INTO clothes VALUES (11, "EARRINGS", 9);
+INSERT INTO clothes VALUES (12, "NECKLACES", 18);
+INSERT INTO clothes VALUES (13, "GLASSES", 19);
+INSERT INTO clothes VALUES (14, "CROPTOPS", 22);
+INSERT INTO clothes VALUES (15, "DRESSES", 50);
+
+--display the database ordered by price. 
+
+SELECT * FROM clothes;
+SELECT * FROM clothes ORDER BY price < 25;
